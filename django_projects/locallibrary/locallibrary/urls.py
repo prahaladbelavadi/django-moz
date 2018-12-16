@@ -19,3 +19,12 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
+
+
+# Use include() to add paths from the catalog application 
+from django.urls import include
+from django.urls import path
+
+urlpatterns += [
+    path('catalog/', include('catalog.urls')),
+]
