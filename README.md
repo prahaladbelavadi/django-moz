@@ -2,6 +2,12 @@
 Server side Django from mozilla dev
 
 
+Reference:
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website
+
+
 ---
 Env: Python 3.x; use command in format: `py [filename.py]`
 create virtual env as py3
